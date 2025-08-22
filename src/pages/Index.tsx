@@ -56,9 +56,11 @@ const Index = () => {
                 vacation rental <br />
                 on autopilot <br />
                 with{" "}
-                <span className="relative">
+                <span className="relative inline-block">
                   Smart AI
-                  <div className="absolute -bottom-2 left-0 w-full h-3 bg-yellow-300 -z-10"></div>
+                  <svg className="absolute -bottom-2 left-0 w-full h-4" viewBox="0 0 200 16" fill="none">
+                    <path d="M5 12C30 8, 70 4, 100 6C130 8, 170 12, 195 10" stroke="#FCD34D" strokeWidth="6" strokeLinecap="round" fill="none"/>
+                  </svg>
                 </span>
               </h1>
               
